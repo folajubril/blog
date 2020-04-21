@@ -2,13 +2,12 @@ backend:
   name: github
   repo: folajubril/blog
 
-media_folder: static/assets
-public_folder: /assets
-
+media_folder: content/assets
+public_folder: content/blog
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: content/blog
     create: true
     fields:
       - { name: path, label: Path }
